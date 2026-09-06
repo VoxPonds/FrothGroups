@@ -1,0 +1,368 @@
+html.old-school {
+    --vp-c-bg: #ffffff;
+    --vp-c-bg-alt: #ffffff;
+    --vp-c-bg-soft: #ffffff;
+    --vp-c-bg-elv: #ffffff;
+
+    --vp-c-text-1: #000000;
+    --vp-c-text-2: #000000;
+    --vp-c-text-3: #000000;
+
+    --vp-c-brand-1: #0000ee;
+    --vp-c-brand-2: #0000ee;
+    --vp-c-brand-3: #0000ee;
+
+    --vp-c-divider: #808080;
+    --vp-c-gutter: #808080;
+
+    --vp-font-family-base: "Times New Roman", Times, serif;
+    --vp-font-family-mono: "Courier New", Courier, monospace;
+}
+
+
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+html.old-school body {
+    background: #ffffff;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+
+html.old-school .VPApp {
+    background: #ffffff;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+/*
+ * IMPORTANT:
+ *
+ * Do not change VPNav's height.
+ * Do not set --vp-nav-height to 0.
+ *
+ * Let VitePress keep its normal layout calculation.
+ */
+
+html.old-school .VPNav {
+    background: #ffffff !important;
+    border-bottom: 1px solid #000000 !important;
+    box-shadow: none !important;
+}
+
+html.old-school .VPNavBar {
+    background: #ffffff !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/* Navbar container */
+
+html.old-school .VPNavBar .container {
+    background: #ffffff;
+}
+
+
+/* Site title */
+
+html.old-school .VPNavBarTitle .title {
+    color: #000000 !important;
+
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+
+/* Navbar links */
+
+html.old-school .VPNavBarMenuLink {
+    color: #0000ee !important;
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+
+    text-decoration: underline;
+
+    background: transparent !important;
+}
+
+html.old-school .VPNavBarMenuLink:hover {
+    color: #0000ee !important;
+    background: transparent !important;
+}
+
+
+/* Navbar dropdown */
+
+html.old-school .VPMenu {
+    border: 1px solid #808080;
+    border-radius: 0;
+
+    background: #ffffff;
+
+    box-shadow: none;
+}
+
+html.old-school .VPMenuLink {
+    border-radius: 0;
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+html.old-school .VPMenuLink .title {
+    color: #0000ee;
+}
+
+html.old-school .VPMenuLink:hover {
+    background: #eeeeee;
+}
+
+
+/* =========================================================
+   STYLE TOGGLE
+   ========================================================= */
+
+html.old-school .style-toggle {
+    margin-left: 4px;
+}
+
+.style-toggle:hover {
+    background: transparent;
+    color: #0000ee;
+}
+
+
+/* =========================================================
+   HOME
+   ========================================================= */
+
+html.old-school .VPHomeHero {
+    background: #ffffff;
+}
+
+html.old-school .VPHomeHero .name {
+    color: #000000 !important;
+
+    background: none !important;
+
+    -webkit-text-fill-color: #000000 !important;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 42px;
+    font-weight: bold;
+}
+
+html.old-school .VPHomeHero .text {
+    color: #000000 !important;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 20px;
+    font-weight: normal;
+}
+
+html.old-school .VPHomeHero .tagline {
+    color: #000000 !important;
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* =========================================================
+   HOME BUTTONS
+   ========================================================= */
+
+html.old-school .VPHomeHero .VPButton {
+    border-radius: 0;
+
+    border: 1px solid #808080;
+
+    background: #eeeeee;
+    color: #000000;
+
+    box-shadow:
+            inset 1px 1px #ffffff,
+            inset -1px -1px #808080;
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+html.old-school .VPHomeHero .VPButton:hover {
+    background: #dddddd;
+    color: #000000;
+}
+
+
+/* =========================================================
+   FEATURES
+   ========================================================= */
+
+html.old-school .VPFeature {
+    border: 1px solid #808080;
+    border-radius: 0;
+
+    background: #ffffff;
+
+    box-shadow: none;
+}
+
+html.old-school .VPFeature:hover {
+    background: #eeeeee;
+    box-shadow: none;
+}
+
+html.old-school .VPFeature .title {
+    color: #000000;
+
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+html.old-school .VPFeature .details {
+    color: #000000;
+}
+
+
+/* =========================================================
+   DOCUMENT
+   ========================================================= */
+
+html.old-school .vp-doc {
+    color: #000000;
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+html.old-school .vp-doc h1,
+html.old-school .vp-doc h2,
+html.old-school .vp-doc h3,
+html.old-school .vp-doc h4,
+html.old-school .vp-doc h5,
+html.old-school .vp-doc h6 {
+    color: #000000 !important;
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+html.old-school .vp-doc h1 {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 4px;
+}
+
+html.old-school .vp-doc h2 {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 3px;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+html.old-school a {
+    color: #0000ee;
+    text-decoration: underline;
+}
+
+html.old-school a:visited {
+    color: #551a8b;
+}
+
+html.old-school a:hover {
+    color: #0000ee;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+html.old-school .VPSidebar {
+    background: #ffffff;
+    box-shadow: none;
+}
+
+html.old-school .VPSidebarItem .text {
+    color: #0000ee;
+}
+
+html.old-school .VPSidebarItem.is-active .text {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   CODE
+   ========================================================= */
+
+html.old-school .vp-doc code {
+    background: #eeeeee;
+
+    border: 1px solid #cccccc;
+    border-radius: 0;
+
+    color: #000000;
+
+    font-family: "Courier New", Courier, monospace;
+}
+
+html.old-school .vp-doc div[class*="language-"] {
+    border: 1px solid #808080;
+    border-radius: 0;
+
+    box-shadow: none;
+}
+
+
+/* =========================================================
+   HR
+   ========================================================= */
+
+html.old-school .vp-doc hr {
+    border: 0;
+    border-top: 1px solid #808080;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+html.old-school .VPNav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 99999 !important;
+    transform: none !important;          /* 防止父级 transform 破坏 fixed */
+    will-change: auto !important;
+}
+
+html.old-school .VPApp,
+html.old-school .Layout,
+html.old-school .VPContent {
+    transform: none !important;
+    perspective: none !important;
+    filter: none !important;
+    contain: none !important;
+}
+
+html.old-school .VPHome,
+html.old-school .VPDoc,
+html.old-school .VPSidebar,
+html.old-school .VPPage,
+html.old-school .VPFooter {
+    position: relative !important;
+    z-index: 0 !important;
+}
+
+html.old-school .VPContent {
+    padding-top: var(--vp-nav-height) !important;
+}
