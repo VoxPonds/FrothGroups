@@ -7,11 +7,11 @@ hero:
   tagline: "Projects, experiments, ideas, and things worth keeping"
   actions:
     - theme: brand
-      text: "Froth Framework API"
-      link: /markdown-examples
-    - theme: alt
       text: "Game Examples"
-      link: /api-examples
+      link: /en/example/app_demos/index
+    - theme: alt
+      text: "Froth Framework API"
+      link: /en/example/api/index
 
 features:
   - title: "Mosss"

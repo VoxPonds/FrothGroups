@@ -7,11 +7,11 @@ hero:
   tagline: "Projects, experiments, ideas, and things worth keeping"
   actions:
     - theme: brand
-      text: "Froth API 参考"
-      link: /example/markdown-examples
-    - theme: alt
       text: "游戏示例"
-      link: /example/api-examples
+      link: /example/app_demos/index
+    - theme: alt
+      text: "Froth API 参考"
+      link: /example/api/index
 
 features:
   - title: 绿螳螂

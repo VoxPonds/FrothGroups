@@ -45,7 +45,7 @@ export default defineConfig({
                     {
                         text: 'Mosss',
                         items: [
-                            { text: 'Article', link: '/en/mosss/article' },
+                            { text: 'Article', link: 'https://mp.weixin.qq.com/s/rMglvCU37QpDTODtxht_cw' },
                             { text: 'Bilibili', link: 'https://space.bilibili.com/652092523' },
                             { text: 'GitHub', link: 'https://github.com/mosss-sky' }
                         ]
